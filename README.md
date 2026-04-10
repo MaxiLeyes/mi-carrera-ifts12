@@ -1,20 +1,23 @@
-# mi-carrera-ifts12
-# Mis Proyectos de Programación - IFTS 12 🎓
-Repositorio central de prácticas y proyectos para la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial.
+# Laboratorio-IA - Grupo 1 🚀
+### IFTS 12 - Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial
 
-## 📂 Estructura del Repositorio
-* **/proyectos-php**: Scripts de servidor, manejo de variables y lógica web.
-* **/bases-de-datos**: Consultas SQL, diagramas de bases de datos y archivos .db (SQLite).
+Este repositorio contiene los trabajos prácticos y desarrollos realizados por el **Grupo 1** para las materias de Programación y Bases de Datos.
 
-## 🚀 Tecnologías Utilizadas
-* **PHP 8.x**: Lógica de servidor.
-* **SQL (SQLite/MySQL)**: Gestión de datos de mascotas y registros académicos.
-* **HTML5/CSS3**: Estructura y diseño básico.
+## 📋 Información del Proyecto
+* **Institución:** IFTS 12 (CABA)
+* **Carrera:** Ciencia de Datos e IA
+* **Cuatrimestre:** 1er Cuatrimestre 2026
+* **Grupo:** N° 1
 
-## 🛠️ Cómo ejecutar los proyectos
-1. Abrir la terminal en este Codespace.
-2. Para PHP: ejecutar `php -S 0.0.0.0:8080` dentro de la carpeta del proyecto.
-3. Para SQL: abrir los archivos `.sql` con el plugin de SQLite o vía terminal.
+## 📂 Contenidos del Laboratorio
+* **/proyectos-php**: Aplicaciones dinámicas y lógica de servidor.
+* **/bases-de-datos**: Diseño relacional y consultas en SQLite para la gestión de datos (incluyendo el sistema de seguimiento de mascotas).
+
+## 🛠️ Entorno de Desarrollo
+Para mantener la compatibilidad y eficiencia, utilizamos:
+* **Sublime Text**: Editor liviano para codificación local.
+* **GitHub Codespaces**: Entorno de ejecución en la nube.
+* **SQLite**: Motor de base de datos para análisis y persistencia.
 
 ---
-*Estudiante: Tu Nombre* *Buenos Aires, Argentina - 2026*
+*Buenos Aires, Argentina - Abril 2026*
