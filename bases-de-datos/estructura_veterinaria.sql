@@ -1,11 +1,4 @@
-/* PROYECTO: Sistema Integral de Gestión Veterinaria
-   AUTOR: Estudiante IFTS 12
-   DESCRIPCIÓN: Script completo de creación de estructura (DDL)
-*/
-
--- 1. TABLAS MAESTRAS (No dependen de nadie)
----------------------------------------------------------
-
+-- 1. Tablas Maestras
 CREATE TABLE Duenos (
     id_dueno INTEGER PRIMARY KEY AUTOINCREMENT,
     nombre TEXT NOT NULL,
@@ -21,9 +14,7 @@ CREATE TABLE Catalogo_Vacunas (
     laboratorio TEXT
 );
 
--- 2. TABLAS RELACIONADAS (Dependen de las maestrass)
----------------------------------------------------------
-
+-- 2. Tablas Dependientes
 CREATE TABLE Mascotas (
     id_mascota INTEGER PRIMARY KEY AUTOINCREMENT,
     nombre TEXT NOT NULL,
@@ -31,12 +22,8 @@ CREATE TABLE Mascotas (
     raza TEXT,
     fecha_nacimiento DATE,
     id_dueno INTEGER, 
-    -- Relación 1:N con Dueños
     FOREIGN KEY (id_dueno) REFERENCES Duenos(id_dueno)
 );
-
--- 3. TABLA INTERMEDIA (Relación Muchos a Muchos N:M)
----------------------------------------------------------
 
 CREATE TABLE Registro_Vacunacion (
     id_registro INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -44,12 +31,6 @@ CREATE TABLE Registro_Vacunacion (
     id_vacuna INTEGER,
     fecha_aplicacion DATE,
     proxima_dosis DATE,
-    -- Conexión doble: une Mascotas con el Catálogo
     FOREIGN KEY (id_mascota) REFERENCES Mascotas(id_mascota),
     FOREIGN KEY (id_vacuna) REFERENCES Catalogo_Vacunas(id_catalogo)
 );
-
-/* CIERRE DEL SCRIPT:
-   Este orden asegura la Integridad Referencial. 
-   Primero los 'Padres' (Duenos, Catalogo), luego los 'Hijos' (Mascotas, Registro).
-*/
