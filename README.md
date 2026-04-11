@@ -19,5 +19,15 @@ Para mantener la compatibilidad y eficiencia, utilizamos:
 * **GitHub Codespaces**: Entorno de ejecución en la nube.
 * **SQLite**: Motor de base de datos para análisis y persistencia.
 
+  **Estado actual:**
+
+**[x]** Estructura de carpetas definida.
+
+**[x]** Base de datos SQLite creada.
+
+**[x]** Conexión PHP exitosa.
+
+*[x]* Carga de datos masiva (Pendiente).
+
 ---
 *Buenos Aires, Argentina - Abril 2026*
