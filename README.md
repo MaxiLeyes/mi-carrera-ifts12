@@ -1,6 +1,7 @@
-# Mi Carrera en el IFTS 12 🎓
+# Laboratorio IA y BD IFTS 12 🎓
 
-Bienvenido a mi repositorio centralizado para la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial. Aquí almaceno todos los desarrollos realizados durante la cursada.
+Bienvenido a nuestro 
+repositorio centralizado para la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial. Aquí almaceno todos los desarrollos realizados durante la cursada.
 
 ## 👥 Mi Equipo de Trabajo (Grupo 1)
 * Claudia Daniela Palau
