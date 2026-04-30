@@ -1,9 +1,9 @@
 # Laboratorio IA y BD IFTS 12 🎓
 
 Bienvenido a nuestro 
-repositorio centralizado para la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial. Aquí almaceno todos los desarrollos realizados durante la cursada.
+repositorio centralizado para la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial. Aquí almacenamos todos los desarrollos realizados durante la cursada.
 
-## 👥 Mi Equipo de Trabajo (Grupo 1)
+## 👥 Equipo de Trabajo (Grupo 1)
 * Claudia Daniela Palau
 * Florencia Almirón
 * Cristian Valenzuela
