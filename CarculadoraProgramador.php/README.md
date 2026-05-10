@@ -28,4 +28,3 @@ Este proyecto fue desarrollado como parte de las prácticas de programación en 
 1. **Captura de Datos:** Se reciben los números a través de variables globales `$_POST`.
 2. **Lógica de Conversión:** Se utilizan funciones nativas de PHP como `dechex()`, `decbin()` y `decoct()`.
 3. **Álgebra de Boole:** Las operaciones lógicas se aplican directamente sobre las variables enteras, permitiendo observar el comportamiento de los bits individuales.
-
