@@ -1,0 +1,29 @@
+<?php
+require "funcionestp1.php";
+$titulo=titulo();
+$Materia=materia();
+$Alumnos=Alumnos();
+
+ ?>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title><?php echo $titulo ?>;</title>
+ </head>
+ <body>
+ 
+ <br>
+ <?php for ($i=0; $i <1; $i++) { 
+ 	
+ 	echo $Materia[$i]."<br>";
+ } ?>
+<?php for ($i=0; $i <16 ; $i++) { 
+	echo $Alumnos[$i][0]."<br>";
+
+	echo $Alumnos[$i][1]."<br>"."<br>";
+
+} ?>
+ </body>
+ </html>

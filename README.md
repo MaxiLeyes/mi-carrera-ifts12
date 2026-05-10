@@ -1,33 +1,16 @@
-# Laboratorio-IA - Grupo 1 🚀
-### IFTS 12 - Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial
+# Técnicas de Programación - TP1
 
-Este repositorio contiene los trabajos prácticos y desarrollos realizados por el **Grupo 1** para las materias de Programación y Bases de Datos.
+Este directorio contiene los archivos del primer trabajo práctico, donde aplicamos conceptos de modularización y estructuras de datos.
 
-## 📋 Información del Proyecto
-* **Institución:** IFTS 12 (CABA)
-* **Carrera:** Ciencia de Datos e IA
-* **Cuatrimestre:** 1er Cuatrimestre 2026
-* **Grupo:** N° 1
+## 📋 Archivos del TP
+* `funcionestp1.php`: Define la lógica del programa y utiliza **matrices** para almacenar datos de alumnos como Carlos Sosa y Ramiro Soria.
+* `TP1-30.04.26.php`: Vista principal que renderiza la información en el navegador.
 
-## 📂 Contenidos del Laboratorio
-* **/proyectos-php**: Aplicaciones dinámicas y lógica de servidor.
-* **/bases-de-datos**: Diseño relacional y consultas en SQLite para la gestión de datos (incluyendo el sistema de seguimiento de mascotas).
-
-## 🛠️ Entorno de Desarrollo
-Para mantener la compatibilidad y eficiencia, utilizamos:
-* **Sublime Text**: Editor liviano para codificación local.
-* **GitHub Codespaces**: Entorno de ejecución en la nube.
-* **SQLite**: Motor de base de datos para análisis y persistencia.
-
-  **Estado actual:**
-
-**[x]** Estructura de carpetas definida.
-
-**[x]** Base de datos SQLite creada.
-
-**[x]** Conexión PHP exitosa.
-
-*[x]* Carga de datos masiva (Pendiente).
+## 📚 Fundamentación Teórica
+[span_1](start_span)El proyecto se basa en el estudio del **Ciclo de Vida y Ámbito de las Variables**[span_1](end_span):
+1.  **[span_2](start_span)[span_3](start_span)Declaración:** Cuando la variable "nace" y el sistema reserva espacio en memoria[span_2](end_span)[span_3](end_span).
+2.  **[span_4](start_span)[span_5](start_span)Vida Activa:** Cuando la variable puede ser leída o modificada dentro de su ámbito (ej. dentro de una función PHP)[span_4](end_span)[span_5](end_span).
+3.  **[span_6](start_span)[span_7](start_span)Destrucción:** Cuando el programa sale del bloque y la memoria se libera automáticamente[span_6](end_span)[span_7](end_span).
 
 ---
-*Buenos Aires, Argentina - Abril 2026*
+*Materia: Técnicas de Programación*

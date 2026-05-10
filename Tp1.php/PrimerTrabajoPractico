@@ -1,0 +1,51 @@
+
+TRABAJO PRÁCTICO N° 1
+
+INTEGRANTES:
+1. PALAU, Claudia Daniela
+2. ALMIRÓN, Florencia
+3. VALENZUELA, Cristian
+4. GÓMEZ CARRERA, Daniela
+5. LEYES, Maximiliano
+6. AGUERO, Jessica
+
+────────────────────────────────────────────
+
+PREGUNTA 1 — Variables: Ciclo de Vida y Ámbito
+
+En programación, una variable es un espacio en memoria que se utiliza para almacenar datos. El ciclo de vida de una variable hace referencia al período durante el cual esa variable existe, desde su creación hasta su eliminación.
+
+Este ciclo está directamente relacionado con el concepto de ámbito o alcance, que define en qué partes del programa la variable puede ser utilizada.
+
+
+ETAPA 1 — Declaración (Nacimiento de la variable)
+
+Una variable "nace" en el momento en que es declarada dentro del programa. En esta etapa se le asigna un nombre y, opcionalmente, un valor inicial.
+
+Este proceso implica que el sistema reserve un espacio en memoria para almacenar el dato.
+
+Ejemplo:
+
+   int edad = 30;
+
+   En este caso, la variable edad es creada y se le asigna el valor inicial 30.
+
+
+   ETAPA 2 — Vida activa (Uso de la variable)
+
+   Durante su vida activa, la variable puede ser utilizada dentro del bloque de código donde fue definida. Esto significa que puede ser leída, modificada o utilizada en operaciones.
+
+   El ámbito determina los límites dentro de los cuales la variable es válida.
+
+   Si una variable se declara dentro de una función, solo podrá utilizarse dentro de esa función. Fuera de esta función, la variable ya no es accesible.
+
+
+   ETAPA 3 — Destrucción (Muerte de la variable)
+
+   Una variable "muere" cuando el programa sale del bloque en el que fue creada. En ese momento, deja de existir y la memoria que ocupaba es liberada.
+
+   Esto ocurre automáticamente, sin necesidad de intervención del programador.
+
+   Ejemplo:
+   Al finalizar la ejecución de una función, todas las variables declaradas dentro de ella dejan de existir.
+
