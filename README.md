@@ -9,6 +9,14 @@ Este repositorio contiene los trabajos prácticos y desarrollos realizados por e
 * **Cuatrimestre:** 1er Cuatrimestre 2026
 * **Grupo:** N° 1
 
+  ## 👥 Mi Equipo de Trabajo (Grupo 1)
+* Claudia Daniela Palau
+* Florencia Almirón
+* Cristian Valenzuela
+* Daniela Gómez Carrera
+* Maximiliano Leyes
+* Jessica Aguero
+
 ## 📂 Contenidos del Laboratorio
 * **/proyectos-php**: Aplicaciones dinámicas y lógica de servidor.
 * **/bases-de-datos**: Diseño relacional y consultas en SQLite para la gestión de datos (incluyendo el sistema de seguimiento de mascotas).
